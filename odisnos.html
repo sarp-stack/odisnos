@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odisnos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: url('background.png') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+            width: 90%;
+        }
+        .logo {
+            max-width: 150px;
+            border-radius: 50%;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 10px 0;
+        }
+        .social-links a {
+            color: white;
+            font-size: 2em;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .social-links a:hover {
+            color: #1e90ff;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            .logo {
+                max-width: 100px;
+            }
+            .social-links a {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Channel Logo" class="logo">
+        <h1>Odisnos</h1>
+        <p>Ben Odisnos.</p>
+        <div class="social-links">
+            <a href="https://kick.com/odisnos" target="_blank"><img src="kick.png" alt="Kick" style="width: 32px; height: 32px; vertical-align: middle; margin-top: -4px;"></a>
+            <a href="https://www.instagram.com/can.ereguler" target="_blank"><i class="fab fa-instagram" style="vertical-align: middle; margin-top: -4px;"></i></a>
+            <a href="https://www.youtube.com/@Odisnos" target="_blank"><i class="fab fa-youtube" style="vertical-align: middle; margin-top: -4px;"></i></a>
+            <a href="https://open.spotify.com/user/21rvkd3xby427qp7f6etjy2qy?si=7f412f1a72c24f10" target="_blank"><i class="fab fa-spotify" style="vertical-align: middle; margin-top: -4px;"></i></a>
+            <a href="https://discord.gg/odisnos" target="_blank"><i class="fab fa-discord" style="vertical-align: middle; margin-top: -4px;"></i></a>
+        </div>
+    </div>
+</body>
+</html>
