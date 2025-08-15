@@ -1,0 +1,37 @@
+{
+  "rewrites": [
+    {
+      "source": "/odisbird/:path*",
+      "destination": "/odisbird/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/odisbird/Build/(.*\\.data)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/octet-stream"
+        }
+      ]
+    },
+    {
+      "source": "/odisbird/Build/(.*\\.wasm)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/wasm"
+        }
+      ]
+    },
+    {
+      "source": "/odisbird/Build/(.*\\.js)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/javascript"
+        }
+      ]
+    }
+  ]
+}
