@@ -32,15 +32,6 @@
           "value": "application/javascript"
         }
       ]
-    },
-    {
-      "source": "/odisbird/TemplateData/(.*\\.css)",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "text/css"
-        }
-      ]
     }
   ]
 }
